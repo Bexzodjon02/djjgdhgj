@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    
+    <div class="container">
+         <div class="d-flex justify-content-between">
+            <button class="mahsulot" >Mahsulotlar</button>
+            <button class="savat">Savatcha</button>
+         </div>
+         <div class="d-flex justify-content-between ">
+            <select  onchange=" addCategory(this)" class="cetegory my-2" >
+                <option selected disabled value="kategoriya">kategiriya</option>
+                <option value="classic">classic</option>
+                <option value="Smart">Smart</option>
+                <option value="compas">compas</option>
+                <option value="Sport">Sport</option>
+                <option value="Quartz">Quartz</option>
+          </select>
+            <div class="dan">
+                <input class="gacha my-2" type="number" placeholder="birinchi narx">dan
+                <input class="gacha my-2" type="number" placeholder="ikkinchi narx">gacha
+            </div>
+         </div>
+         <input oninput="searchText(this)" class="search my-2" type="text" placeholder="Qidiruv.......................!">
+        
+        <div class="row malumotOl">
+             
+        </div>
+    </div>
+    
+    <script src="jQuery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.card{
+    border: 4px solid blue !important;
+    /* border-radius: 10!important; */
+    border-radius: 20px !important;
+    /* text-align: center !important; */
+}
+.images{
+    border-radius: 15px;
+    height: 150px;
+}
+.mahsulot, .savat, .gacha{
+    border:4px solid blue;
+    border-radius: 15px;
+    width: 180px;
+}
+.search{
+    width: 100%;
+    border:4px solid blue;
+    border-radius: 15px;
+}
+.cetegory{
+    border:4px solid blue;
+    border-radius: 15px
+}
